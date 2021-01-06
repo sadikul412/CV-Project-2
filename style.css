@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEE;
+}
+.container{
+    width: 1000px;
+    margin: 10px auto;
+    background-color: rgb(195, 199, 194);
+    padding: 50px;
+}
+
+img{
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50px;
+    float: left;
+}
+
+.name{
+   float: left;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(9, 156, 182);
+}
+.contact{
+  float: right;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(9, 156, 182);
+    font-size: 1.3rem;
+}
+
+.contact a:hover{
+    color: rgb(138, 16, 16);
+    text-decoration: underline;
+    transition: .3s;
+    cursor: help;
+}
+
+hr{
+    border: 3px solid black;
+    border-bottom: none ;
+    border-width: 100%;
+    margin-top:10px
+}
+
+.clear{
+    clear: both;
+}
+
+/* main-part css */
+.parsonal-information{
+   padding: 10px;
+}
+
+.name-part{
+    float: left;
+}
+
+.name-part h3{
+    font-size: 23px;
+}
+
+.information-part{
+  float: right;
+}
+
+.information-part{
+   color: rgb(24, 20, 2);
+   font-size: 20px;
+   margin-top: 5px;
+}
+
+/* work expraence :start */
+
+.work-expreace-container{
+    padding: 10px;
+}
+.work-expreace-part{
+    width: 40%;
+    float: left;
+}
+.work-expreace-information-part{
+    width: 60%;
+    float: right;
+}
+.work-expreace-information-part p{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/* Education-part */
+
+.education-container{
+    padding: 10px;
+}
+.education-part{ 
+    width: 40%;
+    float: left;
+}
+.education-information-part{
+    width: 60%;
+    float: right;
+}
+.education-information-part p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+/* Hons and award */
+
+.hons-container{
+    padding: 10px;
+}
+.hons{
+    float: left;
+    width: 40%;
+}
+.hons-information{
+    float: right;
+    width: 60%;
+}
+.hons-information li{
+    font-size: 20px;
+}
+
+/* footer-part */
+
+.footer-container{
+    padding: 10px;
+    text-align:center;
+    background-color: black;
+    
+}
+.link-part{}
+.link-part a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(241, 245, 248);
+}
+.copyright-part{
+  
+}
+.copyright-part p{
+    font-size: 20px;
+    color: white;
+}
